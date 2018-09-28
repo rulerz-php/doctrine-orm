@@ -8,7 +8,7 @@ use Doctrine\ORM\Query\Expr;
 use Doctrine\ORM\QueryBuilder;
 
 use RulerZ\Compiler\Context;
-use RulerZ\Executor\DoctrineORM\FilterTrait;
+use RulerZ\DoctrineORM\Executor\FilterTrait;
 use RulerZ\Executor\Polyfill\FilterBasedSatisfaction;
 use RulerZ\Target\AbstractSqlTarget;
 
