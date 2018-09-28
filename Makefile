@@ -10,7 +10,7 @@ behat:
 	php ./vendor/bin/behat --colors -vvv
 
 database:
-	rm ./examples/rulerz.db
+	rm ./examples/rulerz.db || true
 	./vendor/bin/doctrine orm:schema-tool:create
 	./examples/scripts/load_fixtures.php
 
