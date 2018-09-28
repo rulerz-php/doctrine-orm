@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /** @var \Doctrine\ORM\EntityManager $em */
-/** @var \Doctrine\DBAL\Connection $connection */
+/* @var \Doctrine\DBAL\Connection $connection */
 list($em, $rulerz) = require_once __DIR__.'/bootstrap.php';
 
 $queryBuilder = $entityManager
