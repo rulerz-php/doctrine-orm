@@ -22,7 +22,7 @@ class DoctrineORMTest extends TestCase
     /** @var DoctrineORM */
     private $target;
 
-    /** @var EntityManager*/
+    /** @var EntityManager */
     private $em;
 
     public function setUp()
